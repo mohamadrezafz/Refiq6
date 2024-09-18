@@ -1,4 +1,4 @@
-# Refiq6! Technology Department - Online Store API
+# Refiq6! 
 
 This project is a simple implementation of an online quiz application with a focus on clean code and simplicity. 
 The API provides endpoints to manage quiz without the need for an authentication system.
