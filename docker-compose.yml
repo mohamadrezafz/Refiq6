@@ -1,0 +1,10 @@
+version: '3.4'
+services:
+  Refiq6.api:
+    image: ${DOCKER_REGISTRY-}Refiq6api
+    build:
+      context: .
+      dockerfile: Refiq6.Api/Dockerfile
+    environment:
+      - ConnectionStrings__DefaultConnection=Data Source=mydatabase.db;
+
